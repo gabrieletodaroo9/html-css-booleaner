@@ -1,12 +1,20 @@
+/* generali */
+
 body {
     margin: 0;
+}
+
+.container-body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
 }
 
 /* logo */
 
 .logo {
     width: 150px;
-    margin: 20px;
+    margin: 17px 10px;
 }
 
 .sezione-logo {
@@ -18,17 +26,16 @@ body {
 
 /* titolo */
 
-.intestazione {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-
 h1 {
     font-size: 36px;
-    ;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
+
+figure {
+    margin-left: 0;
+}
+
+/* autore */
 
 address {
     font-style: normal;
@@ -40,11 +47,10 @@ a {
     color: #53bceb;
 }
 
-/* main  */
+/* lista */
 
-.container-body {
-    max-width: 800px;
-    margin: 0 auto;
+ul {
+    padding-left: 15px;
 }
 
 /* tabella */
@@ -61,37 +67,35 @@ tbody tr:nth-child(odd) {
     background-color: #B1E4F2;
 }
 
-.colonna-larga{
+.colonna-larga {
     width: 50%
 }
 
-/* contenuto secondario */
+/* contenuto correlato */
 
-h3{
+h3 {
     color: #838383;
 }
 
-h4{
+h4 {
     margin-top: 0;
 }
-.primo-correlato{
-    background-image: url(../img/monitor.jpg);
+
+.correlato {
     background-size: cover;
     width: 350px;
     height: 250px;
     color: white;
     padding: 10px;
     font-size: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
-.secondo-correlato{
-   background-image: url(../img/graph.jpg);
-    background-size: cover;
-    width: 350px;
-    height: 250px;
-    color: white;
-    padding:10px;
-    font-size: 25px;
-    margin-bottom: 20px;
+.primo-correlato {
+    background-image: url(../img/monitor.jpg);
+}
+
+.secondo-correlato {
+    background-image: url(../img/graph.jpg);
+
 }
